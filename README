@@ -8,6 +8,11 @@ is not (in this case) a filesystem but just a file. We could turn it into
 a filesystem if we would like the clipboard to be a ring-like structure
 like in Emacs. Or mantain a per app clipboard history.
 
+Dependencies
+============
+
+`fusepy`
+
 Usage Example
 =============
 
