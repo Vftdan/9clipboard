@@ -7,7 +7,7 @@ from time import time
 
 class RegularFile(Mapping):
     def __init__(self, *args, **kwargs):
-        super(type(self)).__init__(*args, **kwargs)
+        super().__init__()
 
         now = time()
         self.stat = dict(
